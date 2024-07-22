@@ -1,10 +1,9 @@
-import ListGroup from "./components/ListGroup";
+import Alert from "./components/Alert";
 
-let items = ["Hargeisa", "Burco", "Berbera", "Borama", "Ceerigabo"];
 function App() {
   return (
     <div>
-      <ListGroup items={items} heading="Cities" />
+     <Alert text="Successfully deleted the content!"/>
     </div>
   );
 }
